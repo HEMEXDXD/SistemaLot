@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSense IoT - Sistema de Monitoreo Agrícola Inteligente</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ========== NAVEGACIÓN ========== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-seedling"></i>
+                <span>AgroSense IoT</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#solucion">Solución</a></li>
+                <li><a href="#funcionamiento">Funcionamiento</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#impacto">Impacto</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO / INICIO ========== -->
+    <header class="hero" id="inicio">
+        <div class="hero-content">
+            <span class="hero-badge">
+                <i class="fas fa-microchip"></i> Proyecto de Solución Tecnológica
+            </span>
+            <h1>Sistema <span class="highlight">IoT</span> para Agricultura Inteligente</h1>
+            <p class="hero-description">
+                Monitoreo en tiempo real de condiciones ambientales y control automático
+                de riego para maximizar la productividad agrícola y reducir pérdidas de cultivos.
+            </p>
+
+            <div class="hero-info-card">
+                <div class="info-row">
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <strong>Carrera</strong>
+                            <span>Ingeniería en Desarrollo de Software</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-book"></i>
+                        <div>
+                            <strong>Asignatura</strong>
+                            <span>Sistemas de la Información de Tecnologías Emergentes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <div class="info-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <div>
+                            <strong>Proyecto</strong>
+                            <span>AgroSense IoT - Sistema de Monitoreo Agrícola</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <strong>Estudiante</strong>
+                            <span>Joseph Mateo Alulema Lema</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#solucion" class="btn btn-primary">
+                    <i class="fas fa-lightbulb"></i> Ver Solución
+                </a>
+                <a href="#contacto" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Contactar
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <i class="fas fa-temperature-high"></i>
+                <span>24°C</span>
+            </div>
+            <div class="floating-card card-2">
+                <i class="fas fa-tint"></i>
+                <span>67%</span>
+            </div>
+            <div class="floating-card card-3">
+                <i class="fas fa-sun"></i>
+                <span>850 lux</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== SECCIÓN PROBLEMA ========== -->
+    <section class="section problem" id="problema">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Identificación del Problema</span>
+                <h2>El Desafío de la Agricultura Tradicional</h2>
+                <div class="section-line"></div>
+                <p>Pérdidas millonarias que podrían evitarse con tecnología adecuada</p>
+            </div>
+
+            <div class="problem-intro">
+                <div class="problem-text">
+                    <h3><i class="fas fa-exclamation-circle"></i> Contexto del Problema</h3>
+                    <p>
+                        La agricultura representa uno de los pilares fundamentales de la economía mundial,
+                        alimentando a más de 7.9 mil millones de personas. Sin embargo, el sector enfrenta
+                        una crisis silenciosa: <strong>la pérdida masiva de cultivos</strong> debido a la
+                        incapacidad de monitorear y responder en tiempo real a las condiciones ambientales.
+                    </p>
+                    <p>
+                        Los agricultores tradicionales dependen de métodos ancestrales de inspección visual
+                        y decisiones basadas en la experiencia. Aunque valiosos, estos métodos resultan
+                        insuficientes ante los desafíos del cambio climático, donde las condiciones
+                        meteorológicas son cada vez más impredecibles y extremas.
+                    </p>
+                    <p>
+                        Cuando un agricultor detecta visualmente que sus plantas muestran signos de estrés
+                        hídrico, térmico o presencia de enfermedades, frecuentemente el daño ya es
+                        irreversible, resultando en pérdidas económicas significativas y desperdicio
+                        de recursos naturales valiosos como el agua.
+                    </p>
+                </div>
+                <div class="problem-image">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800"
+                        alt="Cultivos afectados por sequía y condiciones climáticas adversas" class="responsive-img">
+                    <p class="image-caption">Cultivos afectados por falta de control ambiental</p>
+                </div>
+            </div>
+
+            <!-- Estadísticas del problema -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="stat-number">40%</div>
+                    <div class="stat-label">De cultivos se pierden anualmente por factores ambientales mal controlados
+                        según la FAO</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="stat-number">70%</div>
+                    <div class="stat-label">Del agua dulce mundial se destina a agricultura, gran parte desperdiciada en
+                        riego ineficiente</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="stat-number">$220B</div>
+                    <div class="stat-label">Pérdidas económicas anuales en el sector agrícola por desastres climáticos
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">500M</div>
+                    <div class="stat-label">Pequeños agricultores en el mundo carecen de acceso a tecnología de
+                        monitoreo</div>
+                </div>
+            </div>
+
+            <!-- Causas principales -->
+            <div class="causes-section">
+                <h3><i class="fas fa-search"></i> Principales Causas de Pérdida de Cultivos</h3>
+                <div class="causes-grid">
+                    <div class="cause-card">
+                        <div class="cause-icon">
+                            <i class="fas fa-thermometer-full"></i>
+                        </div>
+                        <h4>Estrés Térmico</h4>
+                        <p>
+                            Las heladas nocturnas inesperadas y las olas de calor extremo pueden
+                            destruir cultivos enteros en cuestión de horas. Sin sensores de temperatura
+                            en tiempo real, los agricultores no pueden activar sistemas de protección
+                            a tiempo.
+                        </p>
+                        <ul>
+                            <li>Heladas que dañan tejidos celulares</li>
+                            <li>Golpes de calor que deshidratan plantas</li>
+                            <li>Fluctuaciones térmicas que afectan floración</li>
+                        </ul>
+                    </div>
+                    <div class="cause-card">
+                        <div class="cause-icon">
+                            <i class="fas fa-tint-slash"></i>
+                        </div>
+                        <h4>Riego Inadecuado</h4>
+                        <p>
+                            El riego basado en horarios fijos ignora las necesidades reales del cultivo.
+                            El exceso de agua provoca pudrición de raíces y enfermedades fúngicas,
+                            mientras que el déficit hídrico causa marchitamiento y muerte celular.
+                        </p>
+                        <ul>
+                            <li>Sobre-riego que causa asfixia radicular</li>
+                            <li>Déficit hídrico en etapas críticas</li>
+                            <li>Distribución desigual del agua</li>
+                        </ul>
+                    </div>
+                    <div class="cause-card">
+                        <div class="cause-icon">
+                            <i class="fas fa-virus"></i>
+                        </div>
+                        <h4>Enfermedades y Plagas</h4>
+                        <p>
+                            Condiciones de alta humedad y temperatura crean el ambiente perfecto
+                            para hongos, bacterias y plagas. Sin monitoreo continuo, estas amenazas
+                            se propagan rápidamente antes de ser detectadas.
+                        </p>
+                        <ul>
+                            <li>Hongos favorecidos por humedad excesiva</li>
+                            <li>Bacterias que proliferan con calor</li>
+                            <li>Insectos atraídos por plantas estresadas</li>
+                        </ul>
+                    </div>
+                    <div class="cause-card">
+                        <div class="cause-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Respuesta Tardía</h4>
+                        <p>
+                            El modelo tradicional de inspección periódica significa que los problemas
+                            solo se detectan cuando ya son visibles a simple vista, momento en que
+                            el daño suele ser irreversible o muy costoso de remediar.
+                        </p>
+                        <ul>
+                            <li>Inspecciones visuales poco frecuentes</li>
+                            <li>Síntomas visibles cuando el daño es severo</li>
+                            <li>Tiempo de reacción insuficiente</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECCIÓN SOLUCIÓN ========== -->
+    <section class="section solution" id="solucion">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nuestra Propuesta</span>
+                <h2>AgroSense IoT: La Solución Inteligente</h2>
+                <div class="section-line"></div>
+                <p>Sistema integral de monitoreo y control automatizado para agricultura de precisión</p>
+            </div>
+
+            <div class="solution-intro">
+                <p>
+                    <strong>AgroSense IoT</strong> es un sistema integral que revoluciona la forma en que
+                    los agricultores interactúan con sus cultivos. Mediante una red de sensores
+                    estratégicamente distribuidos, conectividad inalámbrica de bajo consumo y algoritmos
+                    de inteligencia artificial, el sistema monitorea continuamente las condiciones
+                    ambientales y del suelo, tomando decisiones automatizadas para proteger los cultivos
+                    y optimizar el uso de recursos.
+                </p>
+            </div>
+
+            <!-- Diagrama de arquitectura -->
+            <div class="architecture-diagram">
+                <h3><i class="fas fa-project-diagram"></i> Arquitectura del Sistema</h3>
+                <div class="arch-container">
+                    <div class="arch-layer">
+                        <div class="layer-title">Capa de Percepción</div>
+                        <div class="arch-nodes">
+                            <div class="arch-node">
+                                <i class="fas fa-thermometer-half"></i>
+                                <span>Sensor Temperatura</span>
+                            </div>
+                            <div class="arch-node">
+                                <i class="fas fa-tint"></i>
+                                <span>Sensor Humedad</span>
+                            </div>
+                            <div class="arch-node">
+                                <i class="fas fa-sun"></i>
+                                <span>Sensor Luz</span>
+                            </div>
+                            <div class="arch-node">
+                                <i class="fas fa-flask"></i>
+                                <span>Sensor pH</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="arch-layer">
+                        <div class="layer-title">Capa de Red</div>
+                        <div class="arch-nodes">
+                            <div class="arch-node">
+                                <i class="fas fa-microchip"></i>
+                                <span>ESP32 MCU</span>
+                            </div>
+                            <div class="arch-node">
+                                <i class="fas fa-wifi"></i>
+                                <span>WiFi/LoRa</span>
+                            </div>
+                            <div class="arch-node">
+                                <i class="fas fa-server"></i>
+                                <span>Gateway</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="arch-layer">
+                        <div class="layer-title">Capa de Procesamiento</div>
+                        <div class="arch-nodes">
+                            <div class="arch-node">
+                                <i class="fas fa-cloud"></i>
+                                <span>Cloud Platform</span>
+                            </div>
+                            <div class="arch-node">
+                                <i class="fas fa-database"></i>
+                                <span>Base de Datos</span>
+                            </div>
+                            <div class="arch-node">
+                                <i class="fas fa-brain"></i>
+                                <span>Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
+                    <div class="arch-layer">
+                        <div class="layer-title">Capa de Aplicación</div>
+                        <div class="arch-nodes">
+                            <div class="arch-node">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>App Móvil</span>
+                            </div>
+                            <div class="arch-node">
+                                <i class="fas fa-desktop"></i>
+                                <span>Dashboard Web</span>
+                            </div>
+                            <div class="arch-node">
+                                <i class="fas fa-bell"></i>
+                                <span>Alertas SMS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Características principales -->
+            <div class="features-section">
+                <h3><i class="fas fa-star"></i> Características Principales</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Monitoreo 24/7</h4>
+                        <p>
+                            Sensores que capturan datos cada 5 minutos durante las 24 horas del día,
+                            los 365 días del año. Nunca más perderás información crítica sobre
+                            tus cultivos.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4>Automatización Inteligente</h4>
+                        <p>
+                            El sistema activa automáticamente el riego cuando detecta déficit hídrico,
+                            y puede controlar ventilación, calefacción y otros actuadores según
+                            las condiciones.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <h4>Alertas en Tiempo Real</h4>
+                        <p>
+                            Recibe notificaciones instantáneas en tu smartphone cuando se detecten
+                            condiciones anómalas: heladas inminentes, humedad excesiva, plagas
+                            potenciales.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>Predicción con IA</h4>
+                        <p>
+                            Algoritmos de machine learning analizan patrones históricos para predecir
+                            problemas antes de que ocurran, permitiendo acciones preventivas en
+                            lugar de reactivas.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h4>Reportes Detallados</h4>
+                        <p>
+                            Genera informes automáticos diarios, semanales y mensuales con estadísticas,
+                            tendencias y recomendaciones personalizadas para optimizar tu producción.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                        <h4>Energía Solar</h4>
+                        <p>
+                            Los nodos sensores funcionan con paneles solares y baterías de respaldo,
+                            garantizando operación continua incluso en ubicaciones remotas sin
+                            acceso a la red eléctrica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECCIÓN FUNCIONAMIENTO ========== -->
+    <section class="section how-it-works" id="funcionamiento">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-badge">Proceso Operativo</span>
+                <h2>¿Cómo Funciona el Sistema?</h2>
+                <div class="section-line"></div>
+                <p>Un ciclo continuo de monitoreo, análisis y acción automatizada</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Captura de Datos</h3>
+                        <p>
+                            Los sensores distribuidos en el campo capturan información ambiental
+                            cada 5 minutos. Cada nodo mide temperatura del aire y suelo,
+                            humedad relativa y del sustrato, intensidad lumínica, pH del suelo
+                            y niveles de CO2. Los datos se almacenan temporalmente en el
+                            microcontrolador ESP32.
+                        </p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Sensores de alta precisión</span>
+                            <span><i class="fas fa-check"></i> Muestreo cada 5 minutos</span>
+                            <span><i class="fas fa-check"></i> Buffer local de datos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Transmisión Inalámbrica</h3>
+                        <p>
+                            Los datos capturados se transmiten mediante protocolo WiFi (corta distancia)
+                            o LoRa (larga distancia hasta 15km) hacia el gateway central. El protocolo
+                            MQTT garantiza entrega confiable de mensajes incluso con conexiones
+                            intermitentes, común en áreas rurales.
+                        </p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> WiFi para invernaderos</span>
+                            <span><i class="fas fa-check"></i> LoRa para campo abierto</span>
+                            <span><i class="fas fa-check"></i> Protocolo MQTT seguro</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Procesamiento en la Nube</h3>
+                        <p>
+                            La plataforma cloud (AWS IoT / ThingSpeak) recibe los datos y los
+                            almacena en una base de datos temporal. Los algoritmos de machine
+                            learning analizan los patrones, comparan con umbrales configurados
+                            y detectan anomalías que requieren atención.
+                        </p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Almacenamiento escalable</span>
+                            <span><i class="fas fa-check"></i> Análisis en tiempo real</span>
+                            <span><i class="fas fa-check"></i> Detección de anomalías</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Toma de Decisiones</h3>
+                        <p>
+                            Basándose en el análisis, el sistema toma decisiones automatizadas:
+                            activar riego si la humedad es baja, enviar alerta si se detecta
+                            riesgo de helada, o recomendar aplicación de fungicida si las
+                            condiciones favorecen enfermedades. Las reglas son personalizables
+                            para cada tipo de cultivo.
+                        </p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Reglas configurables</span>
+                            <span><i class="fas fa-check"></i> Acciones automáticas</span>
+                            <span><i class="fas fa-check"></i> Perfiles por cultivo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Ejecución de Acciones</h3>
+                        <p>
+                            Las electroválvulas de riego, ventiladores, calefactores y otros
+                            actuadores reciben comandos del sistema y ejecutan las acciones
+                            necesarias. Todo queda registrado en el historial para análisis
+                            posterior y mejora continua del sistema.
+                        </p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Control de electroválvulas</span>
+                            <span><i class="fas fa-check"></i> Registro de acciones</span>
+                            <span><i class="fas fa-check"></i> Retroalimentación continua</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3>Visualización y Notificación</h3>
+                        <p>
+                            El agricultor puede monitorear todo desde su smartphone o computadora
+                            mediante dashboards intuitivos con gráficas en tiempo real. Recibe
+                            notificaciones push, SMS o email cuando ocurren eventos importantes
+                            o se requiere intervención manual.
+                        </p>
+                        <div class="step-details">
+                            <span><i class="fas fa-check"></i> Dashboard interactivo</span>
+                            <span><i class="fas fa-check"></i> Alertas multicanal</span>
+                            <span><i class="fas fa-check"></i> Históricos y reportes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECCIÓN TECNOLOGÍAS ========== -->
+    <section class="section technologies" id="tecnologias">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Stack Tecnológico</span>
+                <h2>Tecnologías Utilizadas</h2>
+                <div class="section-line"></div>
+                <p>Componentes de hardware y software que hacen posible la solución</p>
+            </div>
+
+            <div class="tech-grid">
+                <!-- Hardware -->
+                <div class="tech-category">
+                    <div class="tech-header">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Hardware</h3>
+                    </div>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-memory"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>ESP32 DevKit</h4>
+                                <p>Microcontrolador dual-core con WiFi y Bluetooth integrados.
+                                    Bajo consumo energético y capacidad de deep sleep.</p>
+                                <span class="tech-tag">Microcontrolador</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-thermometer-half"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>DHT22 / AM2302</h4>
+                                <p>Sensor digital de temperatura (-40°C a 80°C) y humedad relativa
+                                    (0-100%) con precisión de ±0.5°C y ±2% HR.</p>
+                                <span class="tech-tag">Sensor Ambiental</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-tint"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>Sensor Capacitivo v1.2</h4>
+                                <p>Sensor de humedad del suelo resistente a la corrosión.
+                                    Medición capacitiva sin contacto directo con el agua.</p>
+                                <span class="tech-tag">Sensor de Suelo</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-sun"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>BH1750</h4>
+                                <p>Sensor de luz ambiental digital con rango de 1-65535 lux.
+                                    Comunicación I2C para fácil integración.</p>
+                                <span class="tech-tag">Sensor de Luz</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-faucet"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>Electroválvula 12V</h4>
+                                <p>Válvula solenoide normalmente cerrada para control de flujo
+                                    de agua. Compatible con tuberías de 1/2" y 3/4".</p>
+                                <span class="tech-tag">Actuador</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-solar-panel"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>Panel Solar 6W + Batería Li-Ion</h4>
+                                <p>Sistema de alimentación autónomo con panel de 6W y batería
+                                    de 3.7V 6000mAh para operación continua.</p>
+                                <span class="tech-tag">Alimentación</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Software -->
+                <div class="tech-category">
+                    <div class="tech-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Software</h3>
+                    </div>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>AWS IoT Core</h4>
+                                <p>Plataforma cloud para gestión de dispositivos IoT.
+                                    Conexión segura mediante MQTT y procesamiento de datos.</p>
+                                <span class="tech-tag">Cloud Platform</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>Python + TensorFlow</h4>
+                                <p>Backend para procesamiento de datos y modelos de machine
+                                    learning para predicción y detección de anomalías.</p>
+                                <span class="tech-tag">Backend / ML</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>React.js + Node.js</h4>
+                                <p>Dashboard web responsive con gráficos interactivos
+                                    y actualización en tiempo real mediante WebSockets.</p>
+                                <span class="tech-tag">Frontend Web</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>Flutter</h4>
+                                <p>Aplicación móvil multiplataforma (iOS/Android) para
+                                    monitoreo remoto y recepción de notificaciones push.</p>
+                                <span class="tech-tag">App Móvil</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>InfluxDB + PostgreSQL</h4>
+                                <p>Base de datos de series temporales para datos de sensores
+                                    y PostgreSQL para configuraciones y usuarios.</p>
+                                <span class="tech-tag">Base de Datos</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>Arduino IDE / PlatformIO</h4>
+                                <p>Entorno de desarrollo para programación del firmware
+                                    del ESP32 en C/C++.</p>
+                                <span class="tech-tag">Firmware</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Protocolos -->
+                <div class="tech-category">
+                    <div class="tech-header">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Protocolos de Comunicación</h3>
+                    </div>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>MQTT</h4>
+                                <p>Protocolo ligero de mensajería publish/subscribe ideal
+                                    para IoT con bajo ancho de banda y alta confiabilidad.</p>
+                                <span class="tech-tag">Mensajería</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-wifi"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>WiFi 802.11 b/g/n</h4>
+                                <p>Conectividad inalámbrica para áreas con cobertura de red.
+                                    Alcance de hasta 100m en campo abierto.</p>
+                                <span class="tech-tag">Red Local</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-broadcast-tower"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>LoRa / LoRaWAN</h4>
+                                <p>Comunicación de largo alcance (hasta 15km) con bajo consumo.
+                                    Ideal para campos extensos sin cobertura WiFi.</p>
+                                <span class="tech-tag">Red LPWAN</span>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="tech-info">
+                                <h4>TLS/SSL + OAuth 2.0</h4>
+                                <p>Encriptación de datos en tránsito y autenticación segura
+                                    para proteger la información del sistema.</p>
+                                <span class="tech-tag">Seguridad</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Esquema de conexiones -->
+                <div class="tech-category full-width">
+                    <div class="tech-header">
+                        <i class="fas fa-plug"></i>
+                        <h3>Esquema de Conexiones del Hardware</h3>
+                    </div>
+                    <div class="diagram-image large">
+                        <img src="diagrama.png" alt="Diagrama de Conexiones ESP32 + Sensores">
+                        <p class="image-caption">Esquema de conexiones entre ESP32, sensores DHT22, LDR, potenciómetro y
+                            LEDs indicadores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECCIÓN IMPACTO ========== -->
+    <section class="section impact" id="impacto">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-badge">Resultados Esperados</span>
+                <h2>Impacto del Proyecto</h2>
+                <div class="section-line"></div>
+                <p>Beneficios cuantificables para agricultores y el medio ambiente</p>
+            </div>
+
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="impact-value">-50%</div>
+                    <div class="impact-label">Reducción de Pérdidas</div>
+                    <p>Disminución significativa de cultivos perdidos por condiciones
+                        ambientales no detectadas a tiempo.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="impact-value">-40%</div>
+                    <div class="impact-label">Ahorro de Agua</div>
+                    <p>Optimización del riego basado en necesidades reales del cultivo,
+                        eliminando desperdicio por sobre-riego.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="impact-value">+25%</div>
+                    <div class="impact-label">Mayor Productividad</div>
+                    <p>Incremento en rendimiento por hectárea gracias a condiciones
+                        óptimas mantenidas constantemente.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="impact-value">12-18</div>
+                    <div class="impact-label">Meses ROI</div>
+                    <p>Retorno de inversión esperado en menos de 18 meses gracias
+                        a los ahorros generados.</p>
+                </div>
+            </div>
+
+            <div class="impact-details">
+                <div class="impact-section">
+                    <h3><i class="fas fa-hand-holding-usd"></i> Impacto Económico</h3>
+                    <ul>
+                        <li>Reducción de costos operativos por automatización del riego</li>
+                        <li>Menor gasto en insumos al aplicar solo cuando es necesario</li>
+                        <li>Incremento de ingresos por mayor cantidad y calidad de producción</li>
+                        <li>Acceso a mercados premium que exigen trazabilidad de producción</li>
+                        <li>Reducción de mano de obra para tareas de monitoreo manual</li>
+                    </ul>
+                </div>
+                <div class="impact-section">
+                    <h3><i class="fas fa-globe-americas"></i> Impacto Ambiental</h3>
+                    <ul>
+                        <li>Conservación de recursos hídricos escasos</li>
+                        <li>Menor uso de pesticidas y fertilizantes químicos</li>
+                        <li>Reducción de la huella de carbono agrícola</li>
+                        <li>Preservación de la calidad del suelo a largo plazo</li>
+                        <li>Contribución a los Objetivos de Desarrollo Sostenible (ODS)</li>
+                    </ul>
+                </div>
+                <div class="impact-section">
+                    <h3><i class="fas fa-users"></i> Impacto Social</h3>
+                    <ul>
+                        <li>Mejora de la calidad de vida de agricultores familiares</li>
+                        <li>Mayor seguridad alimentaria local y regional</li>
+                        <li>Transferencia tecnológica al sector rural</li>
+                        <li>Creación de empleos técnicos en zonas agrícolas</li>
+                        <li>Empoderamiento digital de comunidades rurales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SECCIÓN GALERÍA COMPARATIVA ========== -->
+    <section class="section gallery-section" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Evidencia Visual</span>
+                <h2>Antes y Después: El Poder de AgroSense IoT</h2>
+                <div class="section-line"></div>
+                <p>Compara los resultados entre agricultura tradicional y agricultura inteligente</p>
+            </div>
+
+            <!-- Comparación Antes/Después -->
+            <div class="comparison-section">
+                <div class="comparison-card before">
+                    <div class="comparison-badge danger">
+                        <i class="fas fa-times-circle"></i> SIN Sistema IoT
+                    </div>
+                    <div class="comparison-image">
+                        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600"
+                            alt="Cultivos afectados por sequía - Sin monitoreo">
+                    </div>
+                    <div class="comparison-content">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Agricultura Tradicional</h3>
+                        <ul>
+                            <li><i class="fas fa-times"></i> Pérdidas por sequía no detectada</li>
+                            <li><i class="fas fa-times"></i> Riego manual ineficiente</li>
+                            <li><i class="fas fa-times"></i> Detección tardía de problemas</li>
+                            <li><i class="fas fa-times"></i> Desperdicio de agua y recursos</li>
+                            <li><i class="fas fa-times"></i> Bajos rendimientos por hectárea</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="comparison-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <span>Transformación</span>
+                </div>
+
+                <div class="comparison-card after">
+                    <div class="comparison-badge success">
+                        <i class="fas fa-check-circle"></i> CON AgroSense IoT
+                    </div>
+                    <div class="comparison-image">
+                        <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600"
+                            alt="Cultivos saludables con sistema IoT">
+                    </div>
+                    <div class="comparison-content">
+                        <h3><i class="fas fa-leaf"></i> Agricultura Inteligente</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Monitoreo 24/7 en tiempo real</li>
+                            <li><i class="fas fa-check"></i> Riego automático optimizado</li>
+                            <li><i class="fas fa-check"></i> Alertas preventivas inmediatas</li>
+                            <li><i class="fas fa-check"></i> Ahorro del 40% en agua</li>
+                            <li><i class="fas fa-check"></i> Incremento del 25% en producción</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Galería de Imágenes -->
+            <div class="gallery-title">
+                <h3><i class="fas fa-images"></i> Galería de Imágenes</h3>
+            </div>
+            <div class="image-gallery">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=800"
+                        alt="Campo de cultivo saludable con riego tecnificado">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-seedling"></i> Cultivos Saludables</span>
+                        <p>Campos monitoreados con sensores IoT</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=400"
+                        alt="Sistema de riego automatizado">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-tint"></i> Riego Inteligente</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=400"
+                        alt="Invernadero tecnificado">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-warehouse"></i> Invernaderos Smart</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400"
+                        alt="Monitoreo de cultivos">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-chart-line"></i> Monitoreo Continuo</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400"
+                        alt="Cosecha abundante">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-apple-alt"></i> Cosecha Óptima</span>
+                    </div>
+                </div>
+            </div>
+<!-- Sección de Videos -->
+<div class="gallery-title">
+    <h3><i class="fas fa-video"></i> Videos </h3>
+</div>
+
+<div class="video-gallery">
+
+    <!-- Video local destacado (slogan) -->
+    <div class="video-card slogan-video">
+        <div class="video-wrapper">
+            <video controls muted playsinline title="Beneficios de nuestra Propuesta">
+                <source src="agricola.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </div>
+        <div class="video-info">
+            <h4><i class="fas fa-play-circle"></i> SE PÁRATE DEL CAMBIO!!</h4>
+            <p>Sé parte del cambio en nuestros cultivos con nuestra propuesta.</p>
+        </div>
+    </div>
+
+    <!-- YouTube videos (más pequeños) -->
+    <div class="video-card">
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/9ZKBS8PMaAI" title="¿Qué es la sequía?"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="video-info">
+            <h4><i class="fab fa-youtube"></i> ¿Qué es la sequía?</h4>
+            <p>Descubre la importancia de saber su significado.</p>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/umAGi80FsPM" title="Efectos del Cambio Climático"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="video-info">
+            <h4><i class="fab fa-youtube"></i> Efectos del cambio climático</h4>
+            <p>Consecuencias del cambio climático.</p>
+        </div>
+    </div>
+
+</div>
+
+    <!-- ========== SECCIÓN CONTACTO ========== -->
+    <section class="section contact" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Contáctanos</span>
+                <h2>Formulario de Contacto</h2>
+                <div class="section-line"></div>
+                <p>¿Interesado en el proyecto? Déjanos tus datos</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <strong>Estudiante</strong>
+                            <span>Joseph Mateo Alulema Lema</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <span>joseph.alulema@uisek.edu.ec</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Teléfono</strong>
+                            <span>+593 099 XXXX</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <strong>Universidad</strong>
+                            <span>Universidad Internacional SEK</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="+XX XXX XXX XXXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa">Empresa / Institución</label>
+                            <input type="text" id="empresa" name="empresa" placeholder="Nombre de empresa">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto *</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">Selecciona un asunto</option>
+                            <option value="informacion">Solicitar información</option>
+                            <option value="cotizacion">Solicitar cotización</option>
+                            <option value="colaboracion">Propuesta de colaboración</option>
+                            <option value="academico">Consulta académica</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required
+                            placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-seedling"></i>
+                        <span>AgroSense IoT</span>
+                    </div>
+                    <p>Sistema inteligente de monitoreo agrícola para la agricultura del futuro.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#problema">El Problema</a></li>
+                        <li><a href="#solucion">La Solución</a></li>
+                        <li><a href="#funcionamiento">Funcionamiento</a></li>
+                        <li><a href="#tecnologias">Tecnologías</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#impacto">Impacto</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AgroSense IoT - Proyecto Académico</p>
+                <p>Desarrollado por Joseph Mateo Alulema Lema | [Nombre de la Universidad]</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para navegación móvil -->
+    <script>
+        // Toggle menú móvil
+        document.querySelector('.nav-toggle').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Scroll suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    document.querySelector('.nav-links').classList.remove('active');
+                }
+            });
+        });
+
+        // Navbar con fondo al hacer scroll
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
